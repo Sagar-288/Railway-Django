@@ -1,0 +1,84 @@
+[
+{
+  "model": "user.train",
+  "pk": 123,
+  "fields": {
+    "trainName": "fast",
+    "totalACSeats" : 12,
+    "totalSittingSeats" : 12,
+    "totalSleeperSeats" : 12,
+    "acfare" : 500,
+    "sittingfare" : 200,
+    "sleeperfare" : 300,
+    "route" : ["A", "B", "C"]
+  }
+},
+{
+  "model": "user.train",
+  "pk": 1231,
+  "fields": {
+    "trainName": "fast1",
+    "totalACSeats" : 12,
+    "totalSittingSeats" : 12,
+    "totalSleeperSeats" : 12,
+    "acfare" : 500,
+    "sittingfare" : 200,
+    "sleeperfare" : 300,
+    "route" : ["F", "B", "M"]
+  }
+},
+{
+  "model": "user.train",
+  "pk": 1232,
+  "fields": {
+    "trainName": "fast2",
+    "totalACSeats" : 12,
+    "totalSittingSeats" : 12,
+    "totalSleeperSeats" : 12,
+    "acfare" : 500,
+    "sittingfare" : 200,
+    "sleeperfare" : 300,
+    "route" : ["A", "R", "S"]
+  }
+},
+{
+  "model": "user.train",
+  "pk": 1233,
+  "fields": {
+    "trainName": "fast3",
+    "totalACSeats" : 12,
+    "totalSittingSeats" : 12,
+    "totalSleeperSeats" : 12,
+    "acfare" : 500,
+    "sittingfare" : 200,
+    "sleeperfare" : 300,
+    "route" : ["C", "D", "E"]
+  }
+},
+{
+  "model": "user.train",
+  "pk": 1234,
+  "fields": {
+    "trainName": "fast4",
+    "totalACSeats" : 12,
+    "totalSittingSeats" : 12,
+    "totalSleeperSeats" : 12,
+    "acfare" : 500,
+    "sittingfare" : 200,
+    "sleeperfare" : 300,
+    "route" : ["A", "B", "C", "D", "E"]
+  }
+},
+{
+  "model": "user.trainstatus",
+	"pk": 1234,
+	"fields": {
+    "trainNo": 1234,
+    "traindate" : "2012-03-23",
+	"bookedACSeats" : 0,
+	"bookedSittingSeats" : 0,
+	"bookedSleeperSeats" : 0
+
+  }
+}
+]
